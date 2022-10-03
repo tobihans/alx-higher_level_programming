@@ -1,8 +1,9 @@
 #!/usr/bin/python3
 import random
+import math
 
 number = random.randint(-10, 10)
-last_digit = number % 10
+last_digit = math.abs(number) % 10
 prefix = f"Last digit of {number} is {last_digit} and is"
 
 if number == 0:
