@@ -12,9 +12,12 @@ class Square:
         """Creates a new square."""
 
         if type(size) is int:
-            if size > 0:
+            if size >= 0:
                 self._Square__size = size
             else:
                 raise ValueError("size must be >= 0")
         else:
             raise TypeError("size must be an integer")
+
+u = Square()
+print(u.__dict__)
