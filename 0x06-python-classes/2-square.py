@@ -3,8 +3,11 @@
 
 This contains some classes definitions.
 """
+
+
 class Square:
     """A class to represent a square."""
+
     def __init__(self, size=0):
         """Creates a new square."""
 
