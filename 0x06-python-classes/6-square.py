@@ -12,7 +12,7 @@ class Square:
         self._Square__position = position
 
         if type(size) is int:
-            if size >= 0:
+            if size > 0:
                 self._Square__size = size
             else:
                 raise ValueError("size must be >= 0")
