@@ -19,10 +19,12 @@ class Square:
 
     @property
     def size(self):
+        """Returns he square size"""
         return self._Square__size
 
     @size.setter
     def size(self, size):
+        """Sets the square size"""
         if type(size) is int:
             if size > 0:
                 self._Square__size = size
@@ -34,4 +36,4 @@ class Square:
     def area(self):
         """Returns the are of the square."""
 
-        return self._Square__size ** 2
+        return self._Square__size**2
