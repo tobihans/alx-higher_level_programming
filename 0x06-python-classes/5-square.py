@@ -48,8 +48,12 @@ class Square:
         self._Square__position = position
 
     def area(self):
+        """Returns the are of the square."""
+
         return self._Square__size ** 2
 
     def my_print(self):
+        """Prints the square."""
+
         print(
             "\n".join(['#' * self._Square__size for _ in range(self._Square__size)]))

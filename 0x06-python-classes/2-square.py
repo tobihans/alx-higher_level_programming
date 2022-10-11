@@ -9,6 +9,8 @@ class Square:
     """A class to represent a square."""
 
     def __init__(self, size=0):
+        """Creates a new square."""
+
         if type(size) is int:
             if size > 0:
                 self._Square__size = size
