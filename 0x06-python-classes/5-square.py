@@ -19,10 +19,14 @@ class Square:
 
     @property
     def size(self):
+        """Returns size"""
+
         return self._Square__size
 
     @size.setter
     def size(self, size):
+        """Sets the size"""
+
         if type(size) is int:
             if size > 0:
                 self._Square__size = size
@@ -32,8 +36,12 @@ class Square:
             raise TypeError("size must be an integer")
 
     def area(self):
+        """Square area"""
+
         return self._Square__size ** 2
 
     def my_print(self):
+        """Square area"""
+
         print(
             "\n".join(['#' * self._Square__size for _ in range(self._Square__size)]))
