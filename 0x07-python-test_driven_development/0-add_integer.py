@@ -1,15 +1,12 @@
 #!/usr/bin/python3
 """
 A module for addition.
-
 It provides functions to perfom addition operations.
-
 That's it.
 """
 
 def add_integer(a, b=98):
   """Sums two int or floats together.
-
   A TypeError will be raised if one the arguments is not an int or a float
   """
 
